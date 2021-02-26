@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    padding:0;
+    content: border-box;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    min-height:100vh;
+    background: url("./kisspng-webblu-digital-marketing-agency-nyc-product-digi-webblu-digital-marketing-agency-new-york-city-5cd57ec10e1801.6191921415574954890577.png");
+    background-size:70%, 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding:0 5rem;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.nav-links {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style:none
+}
+
+.nav-links li {
+padding-left:10rem;
+font-size:0.9rem;
+cursor:pointer}
+
+nav img {
+    height:5rem;
+  
+}
+
+.hero {
+   position: absolute;
+   top:30%;
+   left:0%;
+   padding:0 3rem;
+   width: 33%;
+}
+
+.copy h2 {
+font-size:1.9rem;
+padding:0 0 1.5rem;
+text-transform: uppercase;
+color: #2D4F5C;}
+
+.copy p {
+    padding: 0 0 0.5rem;
+    color: rgb(90, 87, 87);
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background: #2D4F5C;
+    color: white;
+    border:none;
+    cursor:pointer;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: background 0.3s ease-in;
+    -webkit-transition: background 0.3s ease-in;
+    -moz-transition: background 0.3s ease-in;
+    -ms-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+}
+
+.btn:hover {
+    background: #03445e;    
+
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    color:#dad8d8;
+    font-size:2rem;
+    
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.slider {
+    background: rgb(60, 97, 133);
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+
+.hide {
+    background:black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    display: inline-block;
+}
